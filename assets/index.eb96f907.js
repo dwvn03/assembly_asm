@@ -284,7 +284,7 @@ start:
     CALL    get_string 
         
 write_to_file:
-    ; file location : C:emu8086MyBuildREADME.md
+    ; file location : C:\\emu8086\\MyBuild\\README.md
     MOV     AH, 3Ch
     MOV     CX, 0
     LEA     DX, file
@@ -340,7 +340,7 @@ data:
     buffer_size = 1275
 
 start: 
-    ; file location : C:emu8086MyBuildREADME2.md
+    ; file location : C:\\emu8086\\MyBuild\\README2.md
     MOV     AH, 3Dh
     MOV     AL, 0
     LEA     DX, file
