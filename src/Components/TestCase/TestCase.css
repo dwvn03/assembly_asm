@@ -1,0 +1,12 @@
+.swiper img {
+    width: 100%;
+    height: auto;
+    max-height: 90%;
+    border: 0.5px solid black;
+    /* border-bottom: none; */
+}
+
+.swiper {
+    width: 100%;
+    /* border-radius: 16px; */
+}

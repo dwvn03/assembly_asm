@@ -1,0 +1,36 @@
+.footer {
+    width: 100%;
+    height: 50px;
+    margin-top: 15px;
+    background-color: #333333;
+}
+
+.footer p {
+    color: rgb(177, 168, 168);
+}
+
+#footer-wrapper {
+    width: 80vw;
+    height: 100%;
+    margin: 0 auto;
+    display: flex;
+    justify-content: start;
+    align-items: center;
+}
+
+#social {
+    margin-left: auto;
+    display: flex;
+    gap: 10px;
+}
+
+.social-icon {
+    display: inline-block;
+    width: 20px;
+    height: 20px;
+}
+
+.penguin {
+    max-width: 50px;
+    height: auto;
+}
