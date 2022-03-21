@@ -16,7 +16,6 @@ function App() {
 
     const executeScroll = () => {
 		scrollRef.current.scrollIntoView({ behavior: 'smooth' });
-		console.log("scroll");
 	}
 
 	return (
